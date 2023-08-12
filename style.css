@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: #002339;
+    color: #fff;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.display {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    position: relative;
+}
+
+#password {
+    width: 500px;
+    height: 50px;
+    border: none;
+    padding-inline: 10px;
+    outline: none;
+    border-radius: 10px;
+    position: relative;
+}
+
+.copy {
+    font-size: 2rem;
+    color: green;
+    position: absolute;
+    right: 1%;
+    top: 31%;
+    display: none;
+}
+h1{
+    font-size: 3rem;
+}
+
+button {
+    all: unset;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display-con {
+    display: flex;
+    flex-direction: column;
+}
+
+.copied {
+    padding-top: 5px;
+    color: green;
+    text-align: center;
+}
